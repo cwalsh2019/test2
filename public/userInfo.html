@@ -1,0 +1,174 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="codepixer">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Industry</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/nice-select.css">	
+			<link rel="stylesheet" href="css/hexagons.min.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>	
+			  <header id="header" class="header-scrolled">
+			    <div class="container main-menu">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="userInfo.html"><img src="img/logo.png" alt="" title="" /></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active"><a href="userInfo.html">Home</a></li>
+				          <li><a href="playlists.html">Playlists</a></li>
+				          <li><a href="topArtists.html">Top Artists</a></li>
+				          <li><a href="topSongs.html">Top Songs</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+			  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+			    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+			    <script>
+			      
+			   </script>
+
+			<!-- start banner Area -->
+
+			<!-- End banner Area -->	
+			
+			<!-- Start home-about Area -->
+			<section class="home-about-area section-gap aboutus-about" id="about">
+				<div class="container">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-8 col-md-12 home-about-left" id = "user-profile">
+							<h1>
+								User Account Info
+							</h1>
+							<p class="sub"></p>
+							<script id="user-profile-template" type="text/x-handlebars-template">
+						      <h1>Logged in as {{display_name}}</h1>
+						      <div class="media">
+						        <div class="pull-left">
+						          <img class="media-object" width="150" src="{{images.0.url}}" />
+						        </div>
+						        <div class="media-body">
+						          <dl class="dl-horizontal">
+						            <dt>Display name{{display_name}}</dt><dd class="clearfix">{{display_name}}</dd>
+						            <dt>Id</dt><dd>{{id}}</dd>
+						            <dt>Email</dt><dd>{{email}}</dd>
+						            <dt>Spotify URI</dt><dd><a href="{{external_urls.spotify}}">{{external_urls.spotify}}</a></dd>
+						            <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
+						            <dt>Profile Image</dt><dd class="clearfix"><a href="{{images.0.url}}">{{images.0.url}}</a></dd>
+						            <dt>Country</dt><dd>{{country}}</dd>
+						          </dl>
+						        </div>
+						      </div>
+			    		</script>
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End home-about Area -->
+				
+			<!-- Start cat Area -->
+
+			<!-- End cat Area -->						
+
+			<!-- Start service Area -->
+			<section class="service-area section-gap" id="service">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-12 pb-30 header-text text-center">
+							<h1 class="mb-10">Get More Stats</h1>
+							<p>
+								Access info about different areas of your account.
+							</p>
+						</div>
+					</div>						
+					<div class="row">
+						<div class="col-lg-4" onclick="window.location='playlists.html';">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/s1.jpg" alt="">									
+								</div>
+								<h4>Playlists</h4>
+								<p>
+									For every playlist, get stats like the average popularity of the songs on the playlist.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4" onclick="window.location='topArtists.html';">
+							<div class="single-service" >
+								<div class="thumb">
+									<img src="img/s2.jpg" alt="">									
+								</div>
+								<h4>Top Artists</h4>
+								<p>
+									Get a list of the artists that you listen most to over different periods and stats about thoose artists.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4" onclick="window.location='topSongs.html';">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/s3.jpg" alt="">									
+								</div>
+								<h4>Top Songs</h4>
+								<p>
+									Get a list of the songs that you listen most to over different periods and stats about thoose artists.
+								</p>
+							</div>
+						</div>												
+					</div>
+				</div>	
+			</section>
+			<!-- End service Area -->
+			
+
+			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>	
+			<script src="js/hexagons.min.js"></script>							
+			<script src="js/jquery.nice-select.min.js"></script>	
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/waypoints.min.js"></script>							
+			<script src="js/mail-script.js"></script>
+			<script src="js/ATokens.js"></script>	
+			<script src="js/main.js"></script>
+			<script src="js/userAccount.js"></script>	
+		</body>
+	</html>
+
+
+
